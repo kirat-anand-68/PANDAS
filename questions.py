@@ -1,0 +1,12 @@
+import numpy as np
+array1=np.random.randint(1,36,(5,5))
+array2=np.random.randint(1,36,(5,5))
+print(array1)
+print(array2)
+print("The Addition is: \n",array1+array2)
+print("The Subtraction is: \n",array1-array2)
+print("The Multiplication is : \n",array1*array2)
+print("The Division is :\n",array1/array2)
+print(array1[0:2]+array2[0:2])
+print("\nThe Sum of the rows  are: \n", array1[0:6]+array2[0:6])
+print("\n The Sum of the Rows are: \n" ,array1[0:6,0:6]+array2[0:6,0:6])
